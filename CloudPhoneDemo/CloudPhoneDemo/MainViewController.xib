@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tabBarController nibName="MainViewController" id="OR0-bz-qEd">
+            <tabBar key="tabBar" contentMode="scaleToFill" selectedItem="FqJ-8i-bcZ" id="A3C-Iu-LBr">
+                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="zY5-rT-BcS" userLabel="dail" customClass="TabViewController1">
+                    <tabBarItem key="tabBarItem" title="拨号" image="tab_dial_normal" id="FqJ-8i-bcZ"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController id="5B0-5B-TMp" userLabel="addressbook" customClass="TabViewController2">
+                    <tabBarItem key="tabBarItem" title="通讯录" image="tab_addressbook_normal" id="kEX-Ky-P2Y"/>
+                </viewController>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="ZJC-aR-aiJ" userLabel="message" customClass="TabViewController3">
+                    <tabBarItem key="tabBarItem" title="消息" image="tab_im_normal" id="lbC-CG-rI2"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="7na-a6-7o7" userLabel="confrence" customClass="TabViewController4">
+                    <tabBarItem key="tabBarItem" title="会议" image="tab_conference_normal" id="Qjo-d2-SBb"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="18I-d2-cCR" userLabel="lightApp" customClass="TabViewController5">
+                    <tabBarItem key="tabBarItem" title="V应用" image="tab_lightapplication_normal" id="0yA-Uf-Qs7"/>
+                    <toolbarItems/>
+                </viewController>
+            </viewControllers>
+            <point key="canvasLocation" x="219" y="573"/>
+        </tabBarController>
+    </objects>
+    <resources>
+        <image name="tab_addressbook_normal" width="30" height="30"/>
+        <image name="tab_conference_normal" width="30" height="30"/>
+        <image name="tab_dial_normal" width="30" height="30"/>
+        <image name="tab_im_normal" width="30" height="30"/>
+        <image name="tab_lightapplication_normal" width="30" height="30"/>
+    </resources>
+</document>
